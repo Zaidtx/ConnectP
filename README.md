@@ -4,7 +4,7 @@
 
 ## Project Summary
 
-ConnectP is a social network to connect people together in once place sharing their thoughts and the memories and their stories.
+ConnectP is a social network to connect people together in one place sharing their thoughts and the memories and their stories.
 
 ## Developers
 
