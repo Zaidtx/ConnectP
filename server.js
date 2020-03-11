@@ -3,12 +3,15 @@ const connectDB = require("./config/db");
 
 const app = express();
 
-// connect DB
-
-connectDB();
+// test the server
 
 app.get("/", (req, res) => res.send("API Running"));
 
-const PORT = process.env.PORT || 3006;
+// look for port to delpoy
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+
+// connect DB
+
+connectDB();
