@@ -3,13 +3,13 @@ const mongoose = require("mongoose");
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: ture
+    required: true
   },
   email: {
     type: String,
     required: true,
     //email to be unique
-    unique: ture
+    unique: true
   },
   password: {
     type: String,
