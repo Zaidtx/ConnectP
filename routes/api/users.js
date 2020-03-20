@@ -92,7 +92,7 @@ router.post(
       res.status(500).send("Server error");
     }
 
-    res.send("User route");
+    // res.send("User route");
   }
 );
 
